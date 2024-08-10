@@ -1,0 +1,23 @@
+FROM php:8.2-apache
+
+# Instalar pacotes adicionais
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    zip \
+    unzip
+
+# Ativar mod_rewrite do Apache
+RUN a2enmod rewrite
+
+# Configurar o diretório de trabalho
+WORKDIR /var/www/html
+
+# Copiar os arquivos da aplicação para o container
+COPY . /var/www/html
+
+# Expor a porta 80
+EXPOSE 80
+
+# Comando para iniciar o Apache
+CMD ["apache2-foreground"]

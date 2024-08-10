@@ -1,0 +1,9 @@
+# Ignore Docker-related files
+*.log
+*.pid
+*.seed
+*.swo
+*.swp
+
+# Ignore VS Code settings
+.vscode/
