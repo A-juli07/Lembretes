@@ -15,4 +15,4 @@ Este é um projeto de gerenciamento de uma agenda de lembretes em PHP. O projeto
 
 ## Como usar o projeto 
 
--
+- gh repo clone A-juli07/Lembretes - Cole no seu terminal
