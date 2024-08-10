@@ -16,3 +16,9 @@ Este é um projeto de gerenciamento de uma agenda de lembretes em PHP. O projeto
 ## Como usar o projeto 
 
 - gh repo clone A-juli07/Lembretes - Cole no seu terminal
+- cd docker - entre no arquivo docker
+- docker compose up - suba o container
+- localhost:8000 - entre e aproveite sua agenda de lembretes
+
+**`Username : DCC916A`**
+**`Senha : 123`**
